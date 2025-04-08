@@ -19,7 +19,6 @@ public class Main {
         correos.add("inmobiliario.legal@correoexample.net");
 
         System.out.println("Nombres personas " + nombres.size());
-     
 
         System.out.println("Contiene la lista contiene algun paco ? " + nombres.contains("Paco"));
 
@@ -33,8 +32,7 @@ public class Main {
 
         nombres.remove("Daniel");
 
-        System.out.println("Despues de eliminar a Daniel : " + nombres  + " \n");
-         
+        System.out.println("Despues de eliminar a Daniel : " + nombres + " \n");
 
         System.out.println("\ntotal de correo " + correos.size()); // en pantalla me apareceran 3, pero en reazlidad
         // tenemos 4, hascode no permite duplicados
